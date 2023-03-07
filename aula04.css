@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: arial;
+}
+body{
+    background-color: blue;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center ;
+    justify-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin:0;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+#bloco{
+    width: 1100px;
+    height: 600px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-content: center ;
+    justify-content: space-around;
+    align-items: center ;
+    justify-items: center;
+}
+.vermelho{
+    background-color: red ;
+    width: 900px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
